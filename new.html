@@ -1,0 +1,123 @@
+
+<html>
+<head>
+<link rel="icon" href="image/icon.png" type="image/png">
+	<title>
+  Stonovative
+</title>
+	
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://use.fontawesome.com/edcd960a2d.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header ">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" ></a>
+      <a class="navbar-brand" ></a>
+      <a class="navbar-brand" ><img src="image/Stonovative-logo.png" style="width: 180px; "></a>
+      </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+      <li><a href="#"><h5 class="nav">Home</h5></a></li>
+      <li><a href="about.html"><h5 class="nav">Company</h5></a></li>
+      <li><a href="#resume"><h5 class="nav">Services</h5></a></li>
+      <li><a href="#Portfolio"><h5 class="nav">Architectural Elements</h5></a></li>
+      <li><a href="#"><h5 class="nav">Products</h5></a></li>
+      <li><a href="#contact"><h5 class="nav">Natural Stone</h5></a></li>
+       <li><a href="#contact"><h5 class="nav">Workshop</h5></a></li>
+        <li><a href="#contact"><h5 class="nav">Contact Us</h5></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+<div class="row">
+
+<div class="w3-content w3-section" style="max-width:100%">
+  <img class="mySlides" src="image/slider1.jpg" style="width:100%">
+  <img class="mySlides" src="image/slider2.jpg" style="width:100%">
+  <img class="mySlides" src="image/slider3.jpg" style="width:100%">
+    <img class="mySlides" src="image/slider4.jpg" style="width:103%">
+</div>
+</div>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); 
+}
+</script>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-12 effect">
+<center>
+  <h2><b>Welcome To Stonovative</b></h2>
+</center>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+
+<div class="col-sm-6 effect1">
+
+   <div class="hovereffect2">
+        <img class="img-responsive" src="image/slider1.jpg" alt="">
+         </div>
+         
+
+         </div>
+         <div class="col-sm-6 effect">
+<h4>Stone</h4>
+<p class="paragraph">Rock or stone is a natural substance, a solid aggregate of one or more minerals or mineraloids. For example, granite, a common rock, is a combination of the minerals quartz, feldspar and biotite. The Earth's outer solid layer, the lithosphere, is made of rock.
+
+Rock has been used by mankind throughout history. The minerals and metals found in rocks have been essential to human civilization.
+
+Three major groups of rocks are defined: igneous, sedimentary, and metamorphic. The scientific study of rocks is called petrology, which is an essential component of geology.
+At a granular level, rocks are composed of grains of minerals, which, in turn, are homogeneous solids formed from a chemical compound that is arranged in an orderly manner. The aggregate minerals forming the rock are held together by chemical bonds. The types and abundance of minerals in a rock are determined by the manner in which the rock was formed. Many rocks contain silica (SiO2); a compound of silicon and oxygen that forms 74.3% of the Earth's crust. This material forms crystals with other compounds in the rock. The proportion of silica in rocks and minerals is a major factor in determining their name and properties</p></div>
+
+
+</div>
+</div>
+<br><br><br><br>
+<footer>
+  <div class="footer">
+  </div>
+</footer>
+
+
+</body>
+</html>

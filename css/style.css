@@ -1,0 +1,81 @@
+body
+{
+  margin:0;
+  padding: 0;
+  overflow-x:hidden;
+}
+.effect{
+  margin-top:46px;
+}
+.paragraph
+{
+  font-size:16px;
+  font-family: Comic Sans MS;
+}
+.effect1{
+  margin-top:136px;
+}
+.footer{
+  background-color: #161616;
+  height:25%;
+}
+.hovereffect2 {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+  background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+  }
+.hovereffect2 img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 60px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px,0,0);
+  height:45%;
+}
+.hovereffect2:hover img {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+.parallax {
+    /* The image used */
+    background-image: url("../image/slider3.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+.paragraph1
+{
+  font-family:Comic Sans MS;
+  font-size:18px;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url("../image/slider3.jpg");
+
+    /* Set a specific height */
+    min-height: 330px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
